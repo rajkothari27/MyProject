@@ -1,0 +1,26 @@
+files are created to store data permanently ,
+data in the ram will be detroyed once the program is end
+java.io package contains nearly every class you might need to perform input or output
+all this stream represent input source and output destination
+java provides strong but flexible support for i/o related to files
+file provides the means by which a program store data
+
+Stream:
+stream represent source or destination
+byte stream provides a convenient means for handling input and output of bytes (raw sequence of 0 and 1 )
+character streams are designed for handling the input and output of characters (sequence of few o and 1 character, deals with unicode,ascii )
+
+FileOutputStream:
+meant for writing raw bytes
+sub class of output stream
+
+Reading from file:
+reading from file means extracting data stored in file without deleting it
+
+BuffredWritter :
+write character output stream buffering characters so as to provide for the efficent writting of single characters,arrays,strings
+bufferwritter size may be specified or default
+
+BuffredReader:
+read character output stream buffering characters so as to provide for the efficent writting of single characters,arrays,strings
+BuffredReader size may be specified or default

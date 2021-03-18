@@ -1,0 +1,7 @@
+what is abstract
+abstract class dont have object , but you can create reference variable
+method dont have body
+abstarct class needs one method without body to be a abstract
+it is used to genralize , used to declare common charactersric of subclasses
+it can be used as superclass for other classes that extend the abstract class
+if you create a abstract method in any class the class should be declared abstract

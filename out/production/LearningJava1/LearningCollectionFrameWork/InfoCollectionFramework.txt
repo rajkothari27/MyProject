@@ -1,0 +1,62 @@
+the collection frame work provides a well designed set of
+interfaces and classes for storing and manipulating
+group of data as single unit
+
+Benfits of collection framework :
+1. represent  group of data as a single entity
+2. size is expandable (like array size )
+3. can store similiar (homogenous data) and diffrent (hetrogenous data ) types of data
+4.  classes are abstract data type (has predefined structures and methods )
+
+interfaces in collection framework :
+1. collection (interface name ) - this has abstract method , it is root (Parent)interface
+
+2. list (interface name ) (list interface extends collection interface )-
+2.1 duplicates allowed
+2.2 insertion order must be preserved
+2.3 ArrayList , linked list , vector , stack are the implementation classes //stack is a child class of vector
+
+3. set (interface name ) (set interface extends collection interface )-
+3.1 a collection that cannot contain duplicate elements
+3.2 insertion order is not preserved
+3.3 hashset,linkedhasset are the classes implemented set interface //linkedhasset is a child class of hashset
+
+4.Sorted set -
+4.1 child interface of set
+4.2 cannot contain duplicate element
+4.3 some sorted order
+
+5. NavigableSet -
+5.1 child interface of sorted set
+5.2 it defines several methods for navigation purpose
+5.3 tree set is implementation class
+
+6. Queue -
+6.1 child interface of collection
+6.2 priority queue , blocking queue , linkedblocking queue , priority blocking queue classes
+
+1. Map (diffrent from collection framework)-
+1.1 it is used to represent group of object as key value pair
+1.2 map is not a child interface of collection
+1.3 key and values botha re objects
+1.4 key must be unique but values can repeat
+1.5 hashmap,linkedhashmap,weakhashmap,identityhashmap,hashtable,propertise
+
+1.2 SortedMap -
+1.2.1 it is used to represent group of object as key value pair
+1.2.2 child interface of map
+1.2.3 some sorting order
+
+1.3 Navigable map -
+1.3.1 chilod interface od sorted map
+1.3.2 TreeMap is implementation class
+
+comparable - interface for default sorting
+comparator - interface for customized sorting
+
+Utilitiy classes:
+1.collections
+2.arrays
+
+
+

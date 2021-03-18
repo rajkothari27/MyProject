@@ -1,0 +1,8 @@
+tree set class implements navigable set and navigable set implements sorted set,set ,collection
+duplicates not allowed
+insertion order is not preserved
+data is always sorted in logical order
+hetorgenous objects not valued
+null values are accepted
+
+custom sorting alows us to select what type of sorting

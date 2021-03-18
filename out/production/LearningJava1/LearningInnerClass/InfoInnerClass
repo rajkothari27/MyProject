@@ -1,0 +1,6 @@
+in java just like method,variable of a class can have another class as its member
+the class written within is called the nested class
+the class that holds the inner class is called outter class
+
+there are two types of inner class:
+1. static 2.Non static

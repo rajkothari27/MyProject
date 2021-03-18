@@ -1,0 +1,5 @@
+collection is a interface
+collections is a class (has well defined utilites method like sort())
+there is no concrete class which implements collection directly
+
+dynamic array list is the array that can increase and decrease it size

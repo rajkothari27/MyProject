@@ -1,0 +1,11 @@
+Last in first out principle
+subclass of vector
+
+common functions:
+push - puts element on top
+pop -  removes the top element
+peek - gives you copy top element
+empty - returns boolean value
+search - search values in stacka nd gives you index of first occurence
+
+has only one constructor no arguments

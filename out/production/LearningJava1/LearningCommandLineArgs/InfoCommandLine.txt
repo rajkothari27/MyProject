@@ -1,0 +1,7 @@
+a java application can accept number of arguments from the commnand line
+
+what is public static void main(String[]args)
+method is public
+it is main method
+and it has string type of array
+args is refernce variable referning to string array
