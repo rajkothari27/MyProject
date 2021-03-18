@@ -1,0 +1,2 @@
+collections is a class
+this class consists exclusively of static methods that operate on or return collections

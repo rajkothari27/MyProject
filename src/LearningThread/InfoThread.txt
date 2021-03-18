@@ -1,0 +1,27 @@
+a thread is an independent path of execution within a program
+many threads can run concurrently withing a program
+multithreading refers to two or more tasks executing concurrently within a single program
+thread is a class
+to create a thread there are two things
+create a object of thread class and implement runnable interface to run it simultaneously
+
+Threads using thread class :
+you can create threads by extending the thread class example learningthreads class
+
+Thread states:
+java thread is always in one of the state :
+1. running
+2. sleeping
+3. dead etc
+
+States:
+new thread
+runnable
+not runnable
+dead
+
+Multi Threads:
+when we start two or more threads within a program
+there may be a situation when multiple threads try to access the same resource
+so there is a need to synchronisze the action of multiple threads and make sure
+that only one thread can access the resource at given time

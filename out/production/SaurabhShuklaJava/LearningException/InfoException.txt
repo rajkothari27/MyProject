@@ -1,0 +1,29 @@
+exception in java are any abnormal unexpected event that may occur at run time
+
+Class Hirachary
+
+1. throwable
+1.1 Error      1.2 Exception
+               1.2.1 IOException   1.2.2 ClassNotFoundException 1.2.3 RuntimeException
+                                                                1.2.3.1 Illegal Argument 1.2.3.2 NullPointer  1.2.3.3 Artimetic Exception
+
+
+throw is used when we want to thow our exception
+catch is used to catch our thrown exception
+
+
+there are two tupes of exception :
+checked exception are complie time exception or also IO exception (input output operations )
+unchecked exception are run time exception  (arrayindexout of bond , null pointer  )
+
+the code written in finally block will run anyhow , even our catch will not work and java runs own catch block still finally block will run first and then
+java catch will work
+
+why we throw exception object :
+java cannopt recognize exceptional situation of bussiness logic or we want to throw our own error message
+
+checked exception or io exception :
+this exception forces programmers to deal with exception that may be thrown
+example: io exception , sql exception , illegal thread state exception etc
+
+checked means they will be checked at complie time itself

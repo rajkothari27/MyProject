@@ -1,0 +1,16 @@
+linked list has nodes they are pointing to the one node ahead of it because of sequence
+while array list has constant indexing
+
+node is a memomry block and they are not constant but the node has pointer that points to the sequencal node ahead of it
+but every node is not sequencial placing in the memory block
+
+all list allows duplicate values
+
+node insertation does not have shifting , it changes the pointing
+
+accessing nth element in linked list is costly , while arraylist is quick
+
+linked list has two nodes that is called dubly link list one point ahead node and one pointer pointing behind node
+null value is accepted
+
+linked does not have intial capcity like array list

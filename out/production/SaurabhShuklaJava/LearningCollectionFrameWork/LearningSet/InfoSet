@@ -1,0 +1,10 @@
+the set interface dont allow duplicating (in hasset )
+inseration order is not preserved (in hash set )
+inseration order is preserved (linked hash set )
+same method as collection interface
+it uses hash table (used for searching )
+null values are allowed
+hetrogenous allowed
+
+hash set default capicty 16 , if filled 75% then the set capcity increase automatically
+load factor 0.75

@@ -1,0 +1,5 @@
+generics is used to genralize the functions / methods
+generic can handel diffrent types of arguments like int,String,float etc
+all generic method declaration delimited by angle brackets <> that precedes the method's return type
+each parmater can contains one or more type parameters seperated by commas
+

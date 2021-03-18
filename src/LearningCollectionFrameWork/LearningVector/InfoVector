@@ -1,0 +1,10 @@
+vector is dynamic array
+duplicate is allowed
+insertation order is saved
+null is allowed
+hetrogenous is allowed
+methods are synchronized so thread safe (when two objects simultaneously try to access the same,
+here we do synchronise like one by one so its thread safe )
+
+
+

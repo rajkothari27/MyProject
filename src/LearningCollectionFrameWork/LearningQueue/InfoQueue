@@ -1,0 +1,13 @@
+Queue is child interface of collection
+null values are not allowed
+duplicates are allowed
+heterogenous elements are allowed
+first in first out order
+
+Priority queue:
+1. implementation of class queue
+2.the elements of the priority queue are order according to their natural ordering or
+by a comparator provided at queue construction time
+3.null is not allowed
+4.not thread safe
+5.use priority blocking queue for thread safe

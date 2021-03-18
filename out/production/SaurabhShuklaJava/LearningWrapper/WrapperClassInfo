@@ -1,0 +1,22 @@
+
+    /*
+    * java is not 100% object oriented
+    * to do 100% oop programing we use wrapper class
+    *
+    * there is wrapper for every primitive type
+    * like int - Integer
+    *boolean - Boolean
+    * char - Charachter
+    * long - Long
+    * etc
+    *
+    * main functions of wrapper class
+    *
+    * valueOf() - static method and return object of relative wrapper class
+    * parsexxx() - static and xxx can be replaced by any primitive and returns xxx type value
+    * xxxValue() - instance method and can be replace by any primitive type and returns corresponding primitive type
+    *
+    * you dont need to create any object to use this method
+    *
+    *
+    * */

@@ -1,0 +1,16 @@
+cursor is a interface , it used to access data in collection framework one by one
+three type of cursors:
+1. enumeration (min facility):
+1.1 it is a interface
+1.2 generate a series of element one at a time
+1.3 enumeration is only done in vector and stack
+1.4 moves in single direaction
+
+2. itreator
+2.1 itreator is available for all collection implemented class
+2.2 moves in single direaction
+
+3. Listiterator (max facility )
+3.1 list itreator is child interface of itreator
+3.2 bi directional cursor
+3.3 have method list itreator

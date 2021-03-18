@@ -1,0 +1,39 @@
+map does not implement collection interface
+map is used to store key value pair , 1 entry is a pair of object one is key one is value
+map is collection of key and value
+key cannot be repeated
+map has inner interface called map.entry
+
+HashMap:
+1.contains value based on key
+2.hash table data structure is used
+3. contains only unique element
+4. may have one null key and multiple null value
+
+ Hash Table:
+ this is a thread safe version of hash map
+ unsorted and unordered
+ hash table dont allow null value
+
+ LinkedHashMap:
+ subclass of hash map
+ insertion order is maintained
+ slower insertion and deletion
+ hybrid data structure (doubly linked list and hash table)
+
+ SortedMap:
+ child interface of map
+ whenever a group of key value pair needs to be sorted in some sorted order
+ we use sorted map
+ sorting logic applied on key
+
+ navigable map:
+ child interface of sorted map
+ several utility methods it provides to navigate in sorted map
+
+ Tree Map:
+ it implements naviagable map
+ sorted order is maintained
+ not thread sfe
+ map is sorted according to natural ordering of its key or by a comparator
+ red black tree based navigable map implementation

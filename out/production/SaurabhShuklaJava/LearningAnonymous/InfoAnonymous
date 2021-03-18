@@ -1,0 +1,7 @@
+anonymous classes in java are more accurately known as anonymous inner classes
+
+there is no such thing as anonymous classes without inner
+
+they are defined inside another class
+
+inner class can only be anonoymus class (anonoymus class dont ahve name)

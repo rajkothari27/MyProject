@@ -1,0 +1,21 @@
+interface is a collection of functions
+interface has every variable public static final  and methods are abstract
+interface dont have constructor
+interface dont have object
+
+interface vs abstract
+
+1. abstract class can have any access modifiers (like public,private,default,protected)
+1.1 interface dont allow any access modifier
+
+2. abstract class may or may not contain abstract method , but to be abstract it need one abstarct method
+2.1 interface can not have define method
+
+3. abstract class can have static or non static member variable
+3.1  interface have only static member variable
+
+4. abstarct can have final or non final member
+4.1 interface everything is public static final and methods are abstract
+
+5. abstarct can have constructor
+5.1 interface dont have constructor
